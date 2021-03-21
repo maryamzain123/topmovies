@@ -13,3 +13,14 @@
  # FUTURE MODIFICATIONS:
  This application has a potential to showcase show times and tickets information in the future.
 
+# INSTALLATION
+To install program fork the program and copy the ssh link. Navigate to the folder of choice using cd folder_name/ replacing folder_name with the correct name. Once in the folder type git clone ssh_link replacing ssh_link with the one that was obtained earlier and hit enter. "cd" again into the file that was just installed and type ruby ./bin/book-search and hit enter. Before running this program run bundle install in the terminal to install necessary gems.
+
+# CONTRIBUTORS
+If you wish to contribute to this program please submit a pull request or a new issue.
+
+# LICENSE
+This program is licensed under The MIT License (https://opensource.org/licenses/MIT). License file included.
+
+# SOURCES
+https://rubygems.org/ and https://developers.google.com/books/

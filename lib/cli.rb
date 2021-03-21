@@ -3,7 +3,7 @@ class CLI
     def run
         puts""
         puts "TOP BOX OFFICE MOVIES(US)".blue.center(140).bold
-        puts "Weekend of March 12 - 14".blue.center(140).bold
+        puts "Weekend of March 19 - 21, 2021".blue.center(140).bold
         puts""
         Scraper.scrape_movies
         list_movies
