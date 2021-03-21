@@ -14,9 +14,9 @@ class Scraper
         end
     end
 
-    
+
     def self.scrape_ind_movies(movie)
-        html = open(RELATIVE_URL+movie.url)
+        html = open(RELATIVE_URL + movie.url)
         doc = Nokogiri::HTML(html)
         movie.rating = doc.css("div#wrapper").css(".title_bar_wrapper").css(".ratings_wrapper").css(".ratingValue").text.strip
         movie.genre =  doc.css("div#wrapper").css(".title_bar_wrapper").css(".subtext").css("a")[0].text

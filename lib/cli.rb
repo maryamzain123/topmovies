@@ -23,13 +23,12 @@ class CLI
         if !input.to_i.between?(1, Movie.all.count)
             puts""
             puts "Movie not found. Please select a different number.".red.center(140)
-            puts''
+            puts""
             list_movies
             menu
         else 
             movies = Movie.all[input.to_i-1]
             display_movie_details(movies) 
-        
         end
     end
 
