@@ -1,3 +1,4 @@
+  
 class Movie 
     attr_accessor  :name, :url, :rating, :genre, :description
 

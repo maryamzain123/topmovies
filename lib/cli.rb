@@ -18,7 +18,7 @@ class CLI
 
     def menu
         puts""
-        puts "Please select a number to get the movie details or type exit.".cyan.center(140).bold
+        puts "Please select a number to get the movie details.".cyan.center(140).bold
         input = gets.chomp
         if !input.to_i.between?(1, Movie.all.count)
             puts""
@@ -26,12 +26,10 @@ class CLI
             puts''
             list_movies
             menu
-        elsif 
+        else 
             movies = Movie.all[input.to_i-1]
             display_movie_details(movies) 
-        else
-            input = "exit" || "EXIT" || "Exit"
-            exit
+        
         end
     end
 
@@ -59,4 +57,3 @@ class CLI
         end       
  
 end
-
