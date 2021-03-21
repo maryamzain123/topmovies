@@ -4,7 +4,7 @@
 My project name is "TOP BOX OFFICE MOVIES (US)"
 
 # WHAT IS IT ABOUT?
-This project is based on the cli application of a top rated movies list. My web source of this project is:
+This project is based on the cli application of a top rated movies list. My web source for this project is:
 www.imdb.com. I have used the scraping method to get the data from the website.
 
 
@@ -19,9 +19,6 @@ This application has a potential to showcase show times and tickets information 
 
 # INSTALLATION
 To install program fork the program and copy the ssh link. Please make sure you have all the required gems installed. After getting into the correct folder you can run the application typing in bin/environment in ruby you will be able to see the list of movies.
-
-# CONTRIBUTORS
-If you wish to contribute to this program please submit a pull request or a new issue.
 
 # LICENSE
 This program is licensed under The MIT License (https://opensource.org/licenses/MIT). License file included.
