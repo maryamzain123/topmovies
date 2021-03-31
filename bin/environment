@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# specifies that the executable file should run in ruby.
 
 require 'open-uri'
 require 'nokogiri'
